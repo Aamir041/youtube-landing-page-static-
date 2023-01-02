@@ -1,0 +1,39 @@
+.side-nav {
+  grid-area: sideNav;
+  overflow-y: scroll;
+  padding: 0.8rem;
+}
+
+.nav-cont {
+  width: 100%;
+}
+
+.item {
+  margin: 0.2rem 0;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.item div {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0.3rem;
+  margin-left: 0.8rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+span {
+  user-select: none;
+}

@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 7% 7% 1fr;
+  grid-template-areas:
+    "mainNav mainNav"
+    "sideNav secNav"
+    "sideNav main";
+  overflow-y: hidden;
+}
+
+.main-nav {
+  grid-area: mainNav;
+  background: white;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7%;
+}
+.main-nav div {
+  user-select: none;
+}
+
+.den-med {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.den-med:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+img {
+  height: 1.5rem;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.search-input {
+  display: inline-block;
+  border: 3px solid #e3e3e3;
+  border-radius: 25px;
+  width: 40vw;
+  height: 2.3rem;
+}
+
+.search-input input {
+  width: 88%;
+  height: 100%;
+  border: none;
+  border-radius: 25px;
+  padding: 0 1rem;
+  vertical-align: top;
+  font-size: 1rem;
+}
+
+.search-input input:focus-visible {
+  outline: none;
+}
+
+.mic {
+  display: inline-block;
+  height: 2rem;
+  width: 10%;
+  border-left: 3px solid#e3e3e3;
+  text-align: center;
+}
+
+.mic span {
+  margin-top: 3px;
+}
+
+.mics {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.mics:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.helper div {
+  display: inline-block;
+  padding: 0.3rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.helper div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.helper span {
+  height: 2rem;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.profile-name {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  background: #78909c;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.sec-nav {
+  position: fixed;
+  top: 7%;
+  left: 15%;
+  right: 0;
+  grid-area: secNav;
+  background-color: white;
+  min-width: 70%;
+  max-height: 7vh;
+  overflow: hidden;
+}
+.sec-nav div {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0.3rem;
+}
+
+.sec-nav div:hover {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.sec-nav div:nth-child(1) {
+  background: black;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset white;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+  height: 5rem;
+}

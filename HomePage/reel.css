@@ -1,0 +1,86 @@
+.reels-logo {
+  margin-top: 2rem;
+}
+
+.reels-logo-img {
+  display: inline-block;
+}
+
+.reels-text {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+  vertical-align: top;
+}
+
+.reels-cont {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  margin-top: 2rem;
+}
+
+.reel-cont {
+  width: 12.7%;
+  margin: 1rem 0.5rem;
+}
+
+.reel-cont:hover {
+  cursor: pointer;
+}
+
+.img-cont-reel {
+  border-radius: 12px;
+  height: 21rem;
+  width: 100%;
+}
+
+.img1-r {
+  background: url("images/reels/reel1.webp");
+  background-size: contain;
+}
+
+.img2-r {
+  background: url("images/reels/reel2.webp");
+  background-size: contain;
+}
+
+.img3-r {
+  background: url("images/reels/reel3.webp");
+  background-size: contain;
+}
+
+.img4-r {
+  background: url("images/reels/reel4.webp");
+  background-size: contain;
+}
+
+.img5-r {
+  background: url("images/reels/reel5.webp");
+  background-size: contain;
+}
+
+.img6-r {
+  background: url("images/reels/reel6.webp");
+  background-size: contain;
+}
+
+.img7-r {
+  background: url("images/reels/reel7.webp");
+  background-size: contain;
+}
+
+.reels-logo {
+  margin-top: 2rem;
+}
+
+.reel-title {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  width: 75%;
+}
+
+.reel-views {
+  margin: 0.5rem 0;
+}
