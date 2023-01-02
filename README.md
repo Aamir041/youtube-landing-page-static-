@@ -1,5 +1,5 @@
 # youtube-landing-page-static-
-Created Pure CSS
+Created Using Pure CSS
 
 ![Screenshot (59)](https://user-images.githubusercontent.com/78983125/210276130-157f5d8f-2335-4751-af3c-020b24feb770.png)
 
