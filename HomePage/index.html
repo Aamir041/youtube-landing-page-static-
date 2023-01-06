@@ -13,37 +13,44 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+
+    <script src="./themeChange.js" defer></script>
   </head>
-  <body>
+  <body id="body">
     <nav class="main-nav">
       <div>
         <div class="den-med">
-          <span class="material-symbols-outlined"> density_medium </span>
+          <span class="material-symbols-outlined icons"> menu </span>
         </div>
-        <img src="images/youtube-logo-icon.png" alt="youtube-logo" />
+        <img src="images/youtube-logo-icon.png" id="yt-logo" alt="youtube-logo" />
       </div>
       <div class="search">
         <div class="search-input">
-          <input placeholder="Search" />
+          <input placeholder="Search" id="search-input-bar"/>
           <div class="mic">
-            <span class="material-symbols-outlined"> search </span>
+            <span class="material-symbols-outlined icons"> search </span>
           </div>
         </div>
         <div class="mics">
-          <span class="material-symbols-sharp"> mic </span>
+          <span class="material-symbols-sharp icons"> mic </span>
         </div>
       </div>
+
+      <div class="site-theme">
+        <button onclick="changeTheme()">Switch Theme</button>
+      </div>
+
       <div class="helper">
-        <div><span class="material-symbols-outlined"> video_call </span></div>
+        <div><span class="material-symbols-outlined icons"> video_call </span></div>
         <div>
-          <span class="material-symbols-outlined"> notifications </span>
+          <span class="material-symbols-outlined icons"> notifications </span>
         </div>
 
         <h3 class="profile-name">A</h3>
       </div>
     </nav>
-    <nav class="sec-nav">
-      <div>All</div>
+    <nav class="sec-nav" id="second-nav">
+      <div id="current-tag">All</div>
       <div>Mixes</div>
       <div>Live</div>
       <div>Music</div>
@@ -58,95 +65,101 @@
     <nav class="side-nav">
       <div class="nav-cont">
         <div class="item selected">
-          <span class="material-symbols-sharp"> home </span>
+          <span class="material-symbols-sharp icons"> home </span>
           <div class="text">Home</div>
         </div>
         <div class="item">
-          <span class="material-symbols-sharp"> home </span>
+          <span class="material-symbols-sharp icons"> home </span>
           <div class="text">Shorts</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> subscriptions </span>
+          <span class="material-symbols-outlined icons"> subscriptions </span>
           <div class="text">Subscriptions</div>
         </div>
-        <hr />
+
+        <div class="divider"></div>
+
         <div class="item">
-          <span class="material-symbols-outlined"> video_library </span>
+          <span class="material-symbols-outlined icons"> video_library </span>
           <div class="text">Library</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> update </span>
+          <span class="material-symbols-outlined icons"> update </span>
           <div class="text">History</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> smart_display </span>
+          <span class="material-symbols-outlined icons"> smart_display </span>
           <div class="text">Your Videos</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> schedule </span>
+          <span class="material-symbols-outlined icons"> schedule </span>
           <div class="text">Watched Later</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> thumb_up </span>
+          <span class="material-symbols-outlined icons"> thumb_up </span>
           <div class="text">Liked videos</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> playlist_play </span>
+          <span class="material-symbols-outlined icons"> playlist_play </span>
           <div class="text">Songs</div>
         </div>
-        <hr />
+
+        <div class="divider"></div>
+
         <div class="explore">Explore</div>
         <div class="item">
-          <span class="material-symbols-outlined"> local_fire_department </span>
+          <span class="material-symbols-outlined icons"> local_fire_department </span>
           <div class="text">Trending</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> music_note </span>
+          <span class="material-symbols-outlined icons"> music_note </span>
           <div class="text">Music</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> movie </span>
+          <span class="material-symbols-outlined icons"> movie </span>
           <div class="text">Movies</div>
         </div>
         <div class="item">
-          <span class="material-symbols-sharp"> sensors </span>
+          <span class="material-symbols-sharp icons"> sensors </span>
           <div class="text">live</div>
         </div>
         <div class="item">
-          <span class="material-symbols-sharp"> sports_esports </span>
+          <span class="material-symbols-sharp icons"> sports_esports </span>
           <div class="text">Gaming</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> military_tech </span>
+          <span class="material-symbols-outlined icons"> military_tech </span>
           <div class="text">Sports</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> lightbulb </span>
+          <span class="material-symbols-outlined icons"> lightbulb </span>
           <div class="text">Learning</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> styler </span>
+          <span class="material-symbols-outlined icons"> styler </span>
           <div class="text">fashion & Beauty</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> newspaper </span>
+          <span class="material-symbols-outlined icons"> newspaper </span>
           <div class="text">News</div>
         </div>
-        <hr />
+
+        <div class="divider"></div>
+
         <div class="item">
-          <span class="material-symbols-outlined"> settings </span>
+          <span class="material-symbols-outlined icons"> settings </span>
           <div class="text">Settings</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> flag </span>
+          <span class="material-symbols-outlined icons"> flag </span>
           <div class="text">Report History</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> help </span>
+          <span class="material-symbols-outlined icons"> help </span>
           <div class="text">help</div>
         </div>
         <div class="item">
-          <span class="material-symbols-outlined"> sms_failed </span>
+          <span class="material-symbols-outlined icons"> sms_failed </span>
           <div class="text">Send Feedback</div>
         </div>
       </div>
@@ -171,6 +184,7 @@
             </div>
           </div>
         </div>
+
         <div class="video-cont">
           <div class="img-cont img2"><div class="time-text">08:55</div></div>
           <div class="info-cont">
@@ -184,6 +198,7 @@
             </div>
           </div>
         </div>
+
         <div class="video-cont">
           <div class="img-cont img3"><div class="time-text">05:00</div></div>
           <div class="info-cont">
@@ -278,7 +293,8 @@
           </div>
         </div>
       </section>
-      <hr />
+      <!-- <hr /> -->
+      <div class="divider"></div>
       <section class="reels-logo">
         <div class="reels-logo-img">
           <img src="images/shorts_icon.png" alt="shorts Icon" />
@@ -322,7 +338,11 @@
           <div class="reel-views">7.7M views</div>
         </div>
       </section>
-      <hr />
+      <!-- <hr /> -->
+      <div class="divider"></div>
     </main>
+
+
+
   </body>
 </html>

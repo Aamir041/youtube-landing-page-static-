@@ -31,7 +31,7 @@
 }
 
 .selected {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
 }
 
 span {
@@ -41,5 +41,11 @@ span {
 .explore {
   margin: 1rem;
   font-size: 1.2rem;
+}
+
+/* divides section */
+.divider{
+  width: 100%;
+  border-top: 2px solid  #eaeaea ;
 }
 
