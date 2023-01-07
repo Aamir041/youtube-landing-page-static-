@@ -6,8 +6,6 @@ const second_nav = document.getElementById("second-nav");
 
 const up_nav = document.querySelector(".main-nav");
 
-const material_symbols_sharp = document.querySelector(".material-symbols-sharp");
-
 const iconColor = document.querySelectorAll(".icons");
 
 const yt_logo = document.getElementById("yt-logo");
