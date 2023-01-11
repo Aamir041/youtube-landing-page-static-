@@ -57,7 +57,8 @@ img {
   border-radius: 25px;
   width: 40vw;
   height: 2.3rem;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* margin-top: 1.5rem; */
 }
 
 .search-input input {
@@ -68,6 +69,8 @@ img {
   padding: 0 1rem;
   vertical-align: top;
   font-size: 1rem;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .search-input input:focus-visible {
