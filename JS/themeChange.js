@@ -22,6 +22,8 @@ const tags = document.querySelectorAll("#second-nav div");
 
 const selectedSideNavItem = document.querySelector(".selected");
 
+const channelLogos = document.querySelectorAll(".auth-img div");
+
 const changeTheme = () => {
     if(!dark){
         body.style.backgroundColor = "#0f0f0f";
@@ -47,6 +49,10 @@ const changeTheme = () => {
         changeSecondNav("dark");
 
         selectedSideNavItem.style.backgroundColor="#272727";
+        
+        channelLogos.forEach( channelLogo => {
+            channelLogo.style.backgroundColor="white";
+        });
 
     }
     else{
@@ -74,6 +80,10 @@ const changeTheme = () => {
         changeSecondNav("white");
 
         selectedSideNavItem.style.backgroundColor="#f2f2f2";
+
+        channelLogos.forEach( channelLogo => {
+            channelLogo.style.backgroundColor="#0f0f0f";
+        });
     }
     dark=!dark
 }

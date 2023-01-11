@@ -37,37 +37,37 @@
 }
 
 .img1-r {
-  background: url("images/reels/reel1.webp");
+  background: url("../images/reels/reel1.webp");
   background-size: contain;
 }
 
 .img2-r {
-  background: url("images/reels/reel2.webp");
+  background: url("../images/reels/reel2.webp");
   background-size: contain;
 }
 
 .img3-r {
-  background: url("images/reels/reel3.webp");
+  background: url("../images/reels/reel3.webp");
   background-size: contain;
 }
 
 .img4-r {
-  background: url("images/reels/reel4.webp");
+  background: url("../images/reels/reel4.webp");
   background-size: contain;
 }
 
 .img5-r {
-  background: url("images/reels/reel5.webp");
+  background: url("../images/reels/reel5.webp");
   background-size: contain;
 }
 
 .img6-r {
-  background: url("images/reels/reel6.webp");
+  background: url("../images/reels/reel6.webp");
   background-size: contain;
 }
 
 .img7-r {
-  background: url("images/reels/reel7.webp");
+  background: url("../images/reels/reel7.webp");
   background-size: contain;
 }
 

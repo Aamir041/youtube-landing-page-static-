@@ -59,41 +59,41 @@
 }
 
 .img1 {
-  background-image: url(./images/videos/img1.webp);
+  background-image: url(../images/videos/img1.webp);
   background-size: contain;
 }
 
 .img2 {
-  background-image: url(./images/videos/img2.webp);
+  background-image: url(../images/videos/img2.webp);
   background-size: contain;
 }
 .img3 {
-  background-image: url(./images/videos/img3.webp);
+  background-image: url(../images/videos/img3.webp);
   background-size: contain;
 }
 
 .img4 {
-  background-image: url(./images/videos/img9.webp);
+  background-image: url(../images/videos/img9.webp);
   background-size: contain;
 }
 
 .img5 {
-  background-image: url(./images/videos/img5.webp);
+  background-image: url(../images/videos/img5.webp);
   background-size: contain;
 }
 
 .img6 {
-  background-image: url(./images/videos/img10.webp);
+  background-image: url(../images/videos/img10.webp);
   background-size: contain;
 }
 
 .img7 {
-  background-image: url(./images/videos/img4.webp);
+  background-image: url(../images/videos/img4.webp);
   background-size: contain;
 }
 
 .img8 {
-  background-image: url(./images/videos/img8.webp);
+  background-image: url(../images/videos/img8.webp);
   background-size: contain;
 }
 

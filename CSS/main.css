@@ -188,4 +188,13 @@ img {
   right:15%;
 }
 
+.site-theme button {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* Changing Icons */
