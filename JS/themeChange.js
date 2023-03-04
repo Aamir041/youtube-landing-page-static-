@@ -18,8 +18,6 @@ const divider = document.querySelectorAll(".divider");
 
 const current_tag = document.querySelector("#current-tag")
 
-const tags = document.querySelectorAll("#second-nav div");
-
 const selectedSideNavItem = document.querySelector(".selected");
 
 const channelLogos = document.querySelectorAll(".auth-img div");
@@ -119,10 +117,10 @@ const changeSearchBar = (theme) => {
 const changeSecondNav = theme => {
     if(theme === "white") {
 
-
         tags.forEach(tag => {
-            tag.style.backgroundColor="#f2f2f2";
+            tag.style.background = "#f2f2f2";
         })
+
         current_tag.style.backgroundColor = "black";
         current_tag.style.color="white";
 
@@ -130,7 +128,7 @@ const changeSecondNav = theme => {
     else if(theme === "dark") {
 
         tags.forEach(tag => {
-            tag.style.backgroundColor="#272727";
+            tag.style.background = "#272727";
         })
         current_tag.style.backgroundColor = "white";
         current_tag.style.color="black";
